@@ -15,3 +15,33 @@ export interface ButtonProps {
      onClick?: () => void; // Optional: click handler
   className?: string; // Optional: for additional custom Tailwind classes
 }
+
+export interface PostProps {
+  userId: number;
+  id: number;
+  title: string;
+  body: string; // The 'content' part in your instructions is typically 'body' from JSONPlaceholder
+}
+export interface UserProps {
+  id: number;
+  name: string;
+  username: string;
+  email: string;
+  address: {
+    street: string;
+    suite: string;
+    city: string;
+    zipcode: string;
+    geo: {
+      lat: string;
+      lng: string;
+    };
+  };
+  phone: string;
+  website: string;
+  company: {
+    name: string;
+    catchPhrase: string;
+    bs: string;
+  };
+}

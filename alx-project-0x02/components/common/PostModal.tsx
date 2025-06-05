@@ -1,6 +1,6 @@
 // components/common/PostModal.tsx
 import React, { useState } from 'react';
-import { NewPostData } from '@/interfaces'; // Import the new interface
+import {  type NewPostData } from '@/interfaces'; // Import the new interface
 
 // Define props for the PostModal component
 interface PostModalProps {
