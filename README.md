@@ -1,2 +1,11 @@
-# Next.js Project Setup and Basics.
-this project i created complex header, home page, posts, post modal, post card, user page
+# Next.js Project Setup and Basics(My Listing App)
+this project i created 
+* complex header
+* index page
+* home page
+* posts page
+* post modal (reusable component for postpage)
+* post card (reusable component for postpage)
+* user page
+* i used external API
+* Dynamic and reusable buttons for consistency
